@@ -7,6 +7,7 @@
 
 header {
     height: 70px;
+    width: 100%;
     background-color: #EC715F;
 }
 
@@ -32,4 +33,26 @@ header {
     font-size: 16px;
     text-decoration: none;
     color: #FAFAFA;
+}
+
+.main-visual {
+    height: 640px;
+    width: 100%;
+    color: #FAFAFA;
+    background-image: url(../../assets/images/img/mv.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-text-container {
+    padding-top: 200px;
+    text-align: center
+}
+
+.main-text-container h1 {
+    font-size: 64px;
+}
+
+.main-text-container p {
+    font-size: 20px;
 }
