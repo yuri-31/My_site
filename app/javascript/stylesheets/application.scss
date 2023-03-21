@@ -134,3 +134,63 @@ header {
 .bg-6 {
     background-image: url(../../assets/images/img/webcamp-mother.png);
 }
+
+.feature-container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.feature h2 {
+    padding-top: 90px;
+    text-align: center;
+    font-size: 32px;
+    color: #000000;
+}
+
+.feature h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0px auto;
+    background-color: #EC715F;
+}
+
+.feature .heading-text {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.strength-group {
+    padding: 30px 0 90px 0;
+    display: flex;
+}
+
+.strength {
+    width: 320px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.strength:last-child {
+    margin-right: 0px;
+}
+
+.strength i {
+    font-size: 60px;
+}
+
+.strength h3 {
+    font-size: 20px;
+    color: #000000;
+    padding: 10px 0px;
+}
+
+.strength p {
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+}
+
