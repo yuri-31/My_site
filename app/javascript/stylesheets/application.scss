@@ -255,11 +255,86 @@ header {
     width: 512px;
 }
 
-.right-content h3 {
+.profile .right-content h3 {
     font-size: 20px;
     margin: 20px 0px 5px 0px;
 }
 
-.right-content h3:first-child {
+.profile .right-content h3:first-child {
     margin-top: 0px;
+}
+
+.contact-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.contact h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0px auto;
+    background-color: #EC715F;
+}
+
+.contact .heading-text {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-group {
+    padding-top: 30px;
+    padding-bottom: 90px;
+    display: flex;
+}
+
+.contact-group .left-content, .right-content {
+    width: 400px;
+}
+
+.contact-group .left-contact-content {
+    width: 130px;
+    margin: 0 auto;
+}
+
+.contact-group .right-contact-content {
+    width: 170px;
+    margin: 0 auto;
+}
+
+.contact-group .left-content h3 {
+    font-size: 20px;
+    margin: 20px 0px 5px 0px;
+}
+
+.contact-group .left-content h3:first-child {
+    margin-top: 0px;
+}
+
+.contact-group .right-content h3 {
+    font-size: 20px;
+}
+
+.sns-group {
+    margin-top: 5px;
+    display: flex;
+}
+
+.sns-group i {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.sns-group i :last-child {
+    margin-right: 0px;
 }
