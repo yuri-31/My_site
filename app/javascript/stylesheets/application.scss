@@ -17,6 +17,14 @@ header {
     margin: 0 auto;
 }
 
+.navbar-brand img {
+    height: 70px;
+}
+
+.navbar-box {
+    display: none;
+}
+
 .nav-list {
     float: right;
 }
@@ -350,4 +358,50 @@ footer {
     font-size: 16px;
     color: #FAFAFA;
     line-height: 60px;
+}
+
+/* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
+@media screen and (max-width:1024px) {
+  
+}
+/* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
+@media screen and (max-width:768px) {
+    
+  header {
+      height: 50px;
+  }
+  
+  .nav {
+      height: 50px;
+      width: 90%;
+  }
+  
+  .navbar-brand img {
+      height: 50px;
+  }
+  
+  .navbar-box {
+      display: inline-block;
+      float: right;
+      height: 40px;
+      width: 40px;
+      color: #FAFAFA;
+      border: 1px solid;
+      margin: 5px 0;
+      text-align: center;
+  }
+  
+  .fa-bars {
+      font-size: 32px;
+      line-height: 40px;
+  }
+  
+  .nav-list {
+      display: none;
+  }
+  
+}
+/* スマートフォンサイズ（425px）以下の際に適用される設定 */
+@media screen and (max-width:425px) {
+  
 }
