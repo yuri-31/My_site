@@ -417,6 +417,25 @@ footer {
   .main-visual p {
       font-size: 18px;
   }
+  
+  .portfolio-container {
+      width: 90%;
+  }
+  
+  .production-group {
+      width: 250px;
+      margin: 0 auto;
+  }
+  
+  .production:nth-child(odd) {
+      display: none;
+  }
+  
+  .production:nth-child(even) {
+      height: 250px;
+      width: 300px;
+      margin: 0 0 10px 0;
+  }
 }
 /* スマートフォンサイズ（425px）以下の際に適用される設定 */
 @media screen and (max-width:425px) {
