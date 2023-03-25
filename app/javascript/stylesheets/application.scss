@@ -400,6 +400,23 @@ footer {
       display: none;
   }
   
+  .main-visual {
+      background-image: url(../../assets/images/img/code.png);
+      height: 650px;
+  }
+  
+  .main-text-container {
+      width: 90%;
+      margin: 0 auto;
+  }
+  
+  .main-visual h1 {
+      font-size: 40px;
+  }
+  
+  .main-visual p {
+      font-size: 18px;
+  }
 }
 /* スマートフォンサイズ（425px）以下の際に適用される設定 */
 @media screen and (max-width:425px) {
