@@ -436,6 +436,20 @@ footer {
       width: 300px;
       margin: 0 0 10px 0;
   }
+  
+  .feature-container {
+      width: 90%;
+  }
+  
+  .strength-group {
+      flex-flow: row wrap;
+      width: 320px;
+      margin: 0 auto;
+  }
+  
+  .strength {
+      margin: 0 0 10px 0;
+  }
 }
 /* スマートフォンサイズ（425px）以下の際に適用される設定 */
 @media screen and (max-width:425px) {
