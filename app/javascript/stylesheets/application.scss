@@ -316,7 +316,7 @@ header {
 }
 
 .contact-group .right-contact-content {
-    width: 170px;
+    width: 180px;
     margin: 0 auto;
 }
 
@@ -333,17 +333,13 @@ header {
     font-size: 20px;
 }
 
-.sns-group {
-    margin-top: 5px;
-    display: flex;
-}
 
-.sns-group i {
+.right-contact-content .fa {
     font-size: 50px;
     margin-right: 20px;
 }
 
-.sns-group i :last-child {
+.right-contact-content .fa:last-child {
     margin-right: 0px;
 }
 
@@ -471,7 +467,39 @@ footer {
   .profile .right-content h3:first-child {
     margin-top: 20px;
   }
+  
+  .contact-container {
+      width: 90%;
+  }
+  
+  .contact-group {
+      flex-flow: row wrap;
+  }
+  
+  .contact-group .left-content {
+      width: 100%;
+      text-align: center;
+  }
+  
+  .contact-group .right-content {
+      width: 100%;
+      text-align: center;
+  }
+  
+  .contact-group .right-content h3 {
+      margin-top: 20px;
+  }
+  
+  .contact-group .right-content .fa {
+      margin-right: 8px;
+  }
+  
+  .contact-group .right-content .fa:last-child {
+      margin-right: 0px;
+  }
 }
+
+
 /* スマートフォンサイズ（425px）以下の際に適用される設定 */
 @media screen and (max-width:425px) {
   
