@@ -450,6 +450,27 @@ footer {
   .strength {
       margin: 0 0 10px 0;
   }
+  
+  .profile-container {
+      width: 90%;
+  }
+  
+  .profile-group {
+      flex-flow: row wrap;
+      text-align: center;
+  }
+  
+  .profile-group .left-content {
+      width: 100%;
+  }
+  
+  .profile-group .right-content {
+      width: 100%;
+  }
+  
+  .profile .right-content h3:first-child {
+    margin-top: 20px;
+  }
 }
 /* スマートフォンサイズ（425px）以下の際に適用される設定 */
 @media screen and (max-width:425px) {
